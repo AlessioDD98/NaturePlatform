@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="stilef.css" rel="stylesheet" type="text/css">
+<title>
+Benvenuto su Nature!
+</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid p-3 my-3 bg-dark text-white text-center">
+  <h2>Registrazione alla piattaforma Nature</h2>
+</div>
+<form enctype="multipart/form-data" method="post" action="registrazione.php">
+  <div class="container">
+    <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+      <div class="form-group">
+        <label class="sr-only">nickname</label>
+          <input type="text" name="nickname" class="form-control" placeholder="Nickname*">
+        </div>
+      <div class="form-group">
+        <label class="sr-only">password</label>
+          <input type="password" name="password" class="form-control" placeholder="Password*">
+      </div>
+      <div class="form-group">
+        <label class="sr-only">email</label>
+          <input type="text" name="email" class="form-control" placeholder="Email*">
+        </div>
+      <div class="form-group">
+        <label class="sr-only">professione</label>
+          <input type="text" name="professione" class="form-control" placeholder="Professione">
+      </div>
+      <div class="form-group">
+        <label class="sr-only">Anno Di Nascita</label>
+          <input type="number" name="annonascita" class="form-control" placeholder="Anno Di Nascita*">
+        </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="input-group input-group-lg col-md-3 mx-auto mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Foto</span>
+      </div>
+      <input type="file" name="filefoto" class="form-control" aria-describedby="basic-addon1">
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+      <button type="submit" class="btn btn-secondary btn-lg">Registrati</button>
+    </div>
+  </div>
+<h4>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; I campi contrassegnati con * sono obbligatori</h4>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

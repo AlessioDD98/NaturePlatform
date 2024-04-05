@@ -1,0 +1,40 @@
+body{
+width:   100%;
+height:  100%;
+margin:  00px 00px 00px 00px;
+background: url(sfondo13.jpg) no-repeat fixed;
+background-size:100% 100%;
+color: black;
+  font-family: “Times New Roman”, Times, serif;
+  font-size: 18px;
+}
+
+p{
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+button{
+text-align: center;
+position: relative;
+}
+
+h4{
+  color:white;
+}
+
+div#campi{
+  text-align: center;
+  position: relative;
+}
+
+div#sql{
+  text-align: center;
+  position: relative;
+}
+
+div#pos{
+  text-align: center;
+  position: relative;
+}
